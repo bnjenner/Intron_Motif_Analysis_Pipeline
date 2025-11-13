@@ -26,15 +26,15 @@ conda env create -f environment.yaml
 
 4. Activate Conda Environment
 ```
-conda activate SpliceSlice
+conda activate IntronMotifs
 ```
 
-5. Add SpliceSlice.sh to your Path
+5. Add "IntronMotifsPipeline.sh" to your Path
 Best to search how to do this on your specific system.
 
 ### Running SpliceSlice.sh
 ```
-SpliceSlice.sh [-h] transcript_list1 transcript_list2 genome annotaion [ -o output_directory ]
+IntronMotifsPipeline.sh [-h] transcript_list1 transcript_list2 genome annotaion [ -o output_directory ]
 ```
 
 Input files "transcript_list" should be a plain text file where each line contains one valid transcript ID and their quantification level (as an integer) separated by a tab.

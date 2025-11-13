@@ -43,7 +43,7 @@ fi
 
 # Check for optional arguments
 if [ -z "$output" ]; then
-	output="SpliceSlice_Ouput"
+	output="IntronMotif_Ouput"
 fi
 
 # Global
