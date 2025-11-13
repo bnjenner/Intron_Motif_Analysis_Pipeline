@@ -15,13 +15,13 @@ Utilizes:
 
 2. Clone this Repository
 ```
-git clone https://github.com/bnjenner/SpliceSlice_Pipeline.git
+git clone https://github.com/bnjenner/Intron_Motif_Analysis_Pipeline.git
 ```
 
 3. Create Conda Environment
 ```
-cd SpliceSlice_Pipeline
-conda env create -f SpliceSlice.yaml
+cd Intron_Motif_Analysis_Pipeline
+conda env create -f environment.yaml
 ```
 
 4. Activate Conda Environment
